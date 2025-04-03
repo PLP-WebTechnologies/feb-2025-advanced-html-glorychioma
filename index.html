@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ordered list, Image, Table, Form</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>List of Flowers available.</h1>
+    <ol type="i">
+        <li>Rose</li>
+        <li>Sun flower</li>
+        <li>Hibiscus</li>
+        <li>Lily</li>
+        <li>Daisy</li>
+    </ol>
+   <br><br> 
+    <a href="https://images.pexels.com/photos/67857/daisy-flower-spring-marguerite-67857.jpeg?auto=compress&cs=tinysrgb&w=600"> <img width="500px" height="400px" src="images/flower2.jpg" alt="This is a Daisy flower."></a>
+   <br><br>
+    <table>
+    <thead>
+        <tr>
+            <td>Name</td> <td>Address</td> <td>Mobile</td> <td>email</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Ola</td> <td>Ikoyi, Lagos </td> <td>12345</td> <td>ola@email.com</td>
+        </tr>
+        <tr>
+            <td>Sonia <td>Epe, Lagos </td> <td>12345</td> <td>sonia@email.com</td>
+        </tr>
+        <tr>
+            <td>Tola</td> <td>Yaba, Lagos </td> <td>12345</td> <td>tola@email.com</td>
+        </tr>
+
+        <tr>
+            <td>Oma</td> <td>Ikorodu, Lagos </td> <td>12345</td> <td>oma@email.com</td>
+        </tr>
+        <tr>
+            <td>Obi</td> <td>Lekki, Lagos </td> <td>12345</td> <td>obi@email.com</td>
+        </tr>
+    </tbody>
+   </table>
+<br> <br>
+   <form action="get">
+    <fieldset>
+        <legend>Personal Info</legend>
+        <label for="fname">First name:</label> <input type="text" name="fname" id="fname" placeholder="Enter your first name"> <br> <br>
+        <label for="lname">Last name:</label> <input type="text" name="lname" id="lname" placeholder="Enter your last name"> <br> <br>
+    <label for="email">Email:</label> <input type="email" name="email" id="email" placeholder="Enter your email"> <br> <br>
+    <label for="flower">Flower</label>
+    <select name="flower" id="flower">
+        <option value="daisy">Daisy</option>
+        <option value="sunflower">Sunflower</option>
+        <option value="lily">Lily</option>
+        <option value="rose">Rose</option>
+        <option value="hibiscus">Hibiscus</option>
+    </select> <br><br>
+    <label for="date">Birthday:</label><input type="date" name="bday" id="date" placeholder="Enter your date of birth"> <br><br>
+    <button type="submit">Submit</button>
+    </fieldset>
+    
+   </form>    
+
+
+
+</body>
+</html>
